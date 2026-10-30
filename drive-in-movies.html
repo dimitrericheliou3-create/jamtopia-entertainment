@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10100f">
+  <meta name="description" content="Big-screen atmosphere, your people, and a movie-night plan under the open sky.">
+  <title>DRIVE-IN MOVIES — Jamtopia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js-motion');</script>
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  <div class="announcement"><span class="pulse"></span> ADVENTURE, FOOD & GOOD VIBES <span class="announcement-right">YOUR NEXT GREAT DAY STARTS HERE</span></div>
+  <header class="site-header">
+    <a class="brand" href="index.html#home" aria-label="Jamtopia home"><span class="brand-mark">J<span>✳</span></span><span class="brand-name">JAMTOPIA<small>ADVENTURE · FOOD · ENTERTAINMENT</small></span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html#about">The Vibe</a><a href="index.html#experiences">Experiences</a><a href="dining.html">Eat & Chill</a><a href="index.html#visit" class="nav-cta">Plan Your Visit <span>↗</span></a>
+    </nav>
+  </header>
+  <main class="activity-page-main">
+    <section class="activity-detail-hero">
+      <div class="activity-detail-grid" aria-hidden="true"></div>
+      <div class="activity-detail-wrap">
+        <div class="breadcrumbs"><a href="index.html">HOME</a><span>↗</span><a href="index.html#experiences">EXPERIENCES</a><span>↗</span><span>DRIVE-IN MOVIES</span></div>
+        
+        <p class="detail-eyebrow reveal"><span class="eyebrow-line"></span> NIGHT-TIME HANGOUT · 03</p>
+        <h1 class="reveal delay-1">DRIVE-IN<br><em>MOVIES</em></h1>
+        <p class="activity-detail-lede reveal delay-2">Big-screen atmosphere, your people, and a movie-night plan under the open sky.</p>
+        <div class="detail-actions reveal delay-3"><a class="button button-lime" href="index.html#visit">PLAN YOUR VISIT <span>↗</span></a><a class="button-outline" href="index.html#experiences">ALL EXPERIENCES <span>↖</span></a></div>
+        <div class="detail-art reveal delay-2" aria-label="BIG SCREEN · OPEN SKY visual">
+          <div class="detail-art-orbit"></div><div class="detail-art-orbit orbit-b"></div>
+          <div class="detail-art-shape">▶<small>SETTLE IN</small></div>
+        </div>
+      </div>
+    </section>
+    <section class="activity-detail-content">
+      <div class="detail-content-grid">
+        <div class="reveal"><div class="section-kicker">THE EXPERIENCE</div><h2>MAKE MOVIE NIGHT<br><span>FEEL DIFFERENT.</span></h2></div>
+        <div class="reveal delay-1">
+          <p>Trade the usual movie routine for an outdoor drive-in experience at Jamtopia. It’s an easy idea for a date night, a family outing or an evening with friends.</p>
+          <p>Movie schedules and screenings can change. Check with Jamtopia for the latest programme, start times, vehicle or seating arrangements, and any entry details.</p>
+          <p class="detail-note">This page does not list specific movie titles or screening times because those details need to be confirmed with Jamtopia.</p>
+          <div class="detail-mini-grid">
+          <div class="detail-mini"><b>CHECK THE LINE-UP</b><span>Ask which movie is showing and when the event starts.</span></div>
+          <div class="detail-mini"><b>PLAN YOUR EVENING</b><span>Confirm entry instructions, available facilities and current pricing.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="detail-bottom-cta">
+      <div><h2>PLANNING A MOVIE NIGHT?</h2><p>Check directly with Jamtopia for up-to-date availability, prices and visit details before you travel.</p></div>
+      <a href="index.html#visit" class="button button-dark">VISIT INFORMATION <span>↗</span></a>
+    </section>
+  </main>
+  <footer class="footer">
+    <a class="brand footer-brand" href="index.html#home"><span class="brand-mark">J<span>✳</span></span><span class="brand-name">JAMTOPIA<small>ADVENTURE · FOOD · ENTERTAINMENT</small></span></a>
+    <p>GOOD ENERGY. NEW MEMORIES.</p><a href="#" class="back-top">BACK TO TOP ↑</a>
+    <div class="footer-bottom"><span>© <span class="year"></span> JAMTOPIA</span><span>LONG BAY · PORTLAND · JAMAICA</span></div>
+  </footer>
+  <script src="script.js"></script>
+  <script>document.querySelectorAll('.year').forEach(el => el.textContent = new Date().getFullYear());</script>
+</body>
+</html>
